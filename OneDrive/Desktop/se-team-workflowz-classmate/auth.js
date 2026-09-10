@@ -3,10 +3,10 @@ function login(username, password) {
         return "Username and password are required";
     }
 
-    if (username === "admin" && password === "admin123") {
-        return "Authentication successful";
+    if (username === "admin" && password === "1234") {
+        return "Login successful";
     }
 
-    return "Authentication failed";
+    return "Invalid username or password";
 }
 module.exports = { login };
